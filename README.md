@@ -13,10 +13,10 @@ The reason not choose the third one is that there are some potential bugs and pr
 And it is hard to trace where the bug is if the project is at the end since there will be many lines of codes.
 
 # 2
-No
+No, because the function is correct means that we do not need unit test to test this function component.
 
 # 3
 No I will not use unit testing to test message feature because this function is a very complicated feature and it likely involves many units. Since unit testing is used to test individual component, it is hard to test the entire message application. 
 
 # 4
-Yes I will use unit testing to test this feature since this feature only has one function that detect if the user typed in more than 80 characters. This can be achievede by a function so it is a single unit, and therefore we can use unit testing.
+Yes I will use unit testing to test this feature since this feature only has one function that detect if the user typed in more than 80 characters. This can be achievede by a function so it is a single unit, and therefore we can use unit testing. This feature does not closely relate to other features.
